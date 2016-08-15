@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622853C11D614A43000C5BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622853C01D614A43000C5BE2 /* AppDelegate.swift */; };
+		622853C31D614A43000C5BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622853C21D614A43000C5BE2 /* ViewController.swift */; };
+		622853C61D614A43000C5BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622853C41D614A43000C5BE2 /* Main.storyboard */; };
+		622853C91D614A43000C5BE2 /* firebase_email_authentication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 622853C71D614A43000C5BE2 /* firebase_email_authentication.xcdatamodeld */; };
+		622853CB1D614A43000C5BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622853CA1D614A43000C5BE2 /* Assets.xcassets */; };
+		622853CE1D614A43000C5BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622853CC1D614A43000C5BE2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		622853BD1D614A43000C5BE2 /* firebase-email-authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebase-email-authentication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		622853C01D614A43000C5BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		622853C21D614A43000C5BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		622853C51D614A43000C5BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		622853C81D614A43000C5BE2 /* firebase_email_authentication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = firebase_email_authentication.xcdatamodel; sourceTree = "<group>"; };
+		622853CA1D614A43000C5BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		622853CD1D614A43000C5BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		622853CF1D614A43000C5BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		622853BA1D614A43000C5BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		622853B41D614A43000C5BE2 = {
+			isa = PBXGroup;
+			children = (
+				622853BF1D614A43000C5BE2 /* firebase-email-authentication */,
+				622853BE1D614A43000C5BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		622853BE1D614A43000C5BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				622853BD1D614A43000C5BE2 /* firebase-email-authentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		622853BF1D614A43000C5BE2 /* firebase-email-authentication */ = {
+			isa = PBXGroup;
+			children = (
+				622853C01D614A43000C5BE2 /* AppDelegate.swift */,
+				622853C21D614A43000C5BE2 /* ViewController.swift */,
+				622853C41D614A43000C5BE2 /* Main.storyboard */,
+				622853CA1D614A43000C5BE2 /* Assets.xcassets */,
+				622853CC1D614A43000C5BE2 /* LaunchScreen.storyboard */,
+				622853CF1D614A43000C5BE2 /* Info.plist */,
+				622853C71D614A43000C5BE2 /* firebase_email_authentication.xcdatamodeld */,
+			);
+			path = "firebase-email-authentication";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		622853BC1D614A43000C5BE2 /* firebase-email-authentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622853D21D614A43000C5BE2 /* Build configuration list for PBXNativeTarget "firebase-email-authentication" */;
+			buildPhases = (
+				622853B91D614A43000C5BE2 /* Sources */,
+				622853BA1D614A43000C5BE2 /* Frameworks */,
+				622853BB1D614A43000C5BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "firebase-email-authentication";
+			productName = "firebase-email-authentication";
+			productReference = 622853BD1D614A43000C5BE2 /* firebase-email-authentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		622853B51D614A43000C5BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Fonyo";
+				TargetAttributes = {
+					622853BC1D614A43000C5BE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 622853B81D614A43000C5BE2 /* Build configuration list for PBXProject "firebase-email-authentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 622853B41D614A43000C5BE2;
+			productRefGroup = 622853BE1D614A43000C5BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				622853BC1D614A43000C5BE2 /* firebase-email-authentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		622853BB1D614A43000C5BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622853CE1D614A43000C5BE2 /* LaunchScreen.storyboard in Resources */,
+				622853CB1D614A43000C5BE2 /* Assets.xcassets in Resources */,
+				622853C61D614A43000C5BE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		622853B91D614A43000C5BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622853C91D614A43000C5BE2 /* firebase_email_authentication.xcdatamodeld in Sources */,
+				622853C31D614A43000C5BE2 /* ViewController.swift in Sources */,
+				622853C11D614A43000C5BE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		622853C41D614A43000C5BE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				622853C51D614A43000C5BE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		622853CC1D614A43000C5BE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				622853CD1D614A43000C5BE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		622853D01D614A43000C5BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		622853D11D614A43000C5BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		622853D31D614A43000C5BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "firebase-email-authentication/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DF.firebase-email-authentication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		622853D41D614A43000C5BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "firebase-email-authentication/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DF.firebase-email-authentication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		622853B81D614A43000C5BE2 /* Build configuration list for PBXProject "firebase-email-authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622853D01D614A43000C5BE2 /* Debug */,
+				622853D11D614A43000C5BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622853D21D614A43000C5BE2 /* Build configuration list for PBXNativeTarget "firebase-email-authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622853D31D614A43000C5BE2 /* Debug */,
+				622853D41D614A43000C5BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		622853C71D614A43000C5BE2 /* firebase_email_authentication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				622853C81D614A43000C5BE2 /* firebase_email_authentication.xcdatamodel */,
+			);
+			currentVersion = 622853C81D614A43000C5BE2 /* firebase_email_authentication.xcdatamodel */;
+			path = firebase_email_authentication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 622853B51D614A43000C5BE2 /* Project object */;
+}
