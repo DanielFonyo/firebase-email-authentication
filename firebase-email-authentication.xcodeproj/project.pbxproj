@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		622853C11D614A43000C5BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622853C01D614A43000C5BE2 /* AppDelegate.swift */; };
-		622853C31D614A43000C5BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622853C21D614A43000C5BE2 /* ViewController.swift */; };
 		622853C61D614A43000C5BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622853C41D614A43000C5BE2 /* Main.storyboard */; };
 		622853C91D614A43000C5BE2 /* firebase_email_authentication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 622853C71D614A43000C5BE2 /* firebase_email_authentication.xcdatamodeld */; };
 		622853CB1D614A43000C5BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622853CA1D614A43000C5BE2 /* Assets.xcassets */; };
 		622853CE1D614A43000C5BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622853CC1D614A43000C5BE2 /* LaunchScreen.storyboard */; };
+		622853D61D614A77000C5BE2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622853D51D614A77000C5BE2 /* LoginController.swift */; };
+		622853D81D614A84000C5BE2 /* LoginController-handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622853D71D614A84000C5BE2 /* LoginController-handlers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		622853BD1D614A43000C5BE2 /* firebase-email-authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebase-email-authentication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		622853C01D614A43000C5BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		622853C21D614A43000C5BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		622853C51D614A43000C5BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		622853C81D614A43000C5BE2 /* firebase_email_authentication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = firebase_email_authentication.xcdatamodel; sourceTree = "<group>"; };
 		622853CA1D614A43000C5BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		622853CD1D614A43000C5BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		622853CF1D614A43000C5BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622853D51D614A77000C5BE2 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		622853D71D614A84000C5BE2 /* LoginController-handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController-handlers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				622853C01D614A43000C5BE2 /* AppDelegate.swift */,
-				622853C21D614A43000C5BE2 /* ViewController.swift */,
+				622853D51D614A77000C5BE2 /* LoginController.swift */,
+				622853D71D614A84000C5BE2 /* LoginController-handlers.swift */,
 				622853C41D614A43000C5BE2 /* Main.storyboard */,
 				622853CA1D614A43000C5BE2 /* Assets.xcassets */,
 				622853CC1D614A43000C5BE2 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622853D81D614A84000C5BE2 /* LoginController-handlers.swift in Sources */,
 				622853C91D614A43000C5BE2 /* firebase_email_authentication.xcdatamodeld in Sources */,
-				622853C31D614A43000C5BE2 /* ViewController.swift in Sources */,
+				622853D61D614A77000C5BE2 /* LoginController.swift in Sources */,
 				622853C11D614A43000C5BE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
